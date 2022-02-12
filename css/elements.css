@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    animation: started 1s 0.01s ease ;
 }
 
 body {
@@ -23,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 6rem;
     text-transform: uppercase;
+    animation: center-title-intro 0.5s ease-out;
+
+}
+
+h1:hover {
+    animation: left-title-intro 0.5s ease both;
 }
 
 h2 {

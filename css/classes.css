@@ -1,7 +1,8 @@
 .main-bg {
+    background-image: url("../img/main-bg.svg");
     background-size: cover;
     background-position: center center;
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .white-bg {
@@ -12,7 +13,7 @@
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 8rem var(--gap);
 }
 
 .section {

@@ -5,27 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/imports.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/elements.css">
-    <link rel="stylesheet" href="./css/classes.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../assets/css/imports.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/elements.css">
+    <link rel="stylesheet" href="../assets/css/classes.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
 
-    <title>Landing Page</title>
+    <title>Mateus Dev</title>
+    <link rel="shortcut icon" href="../assets/img/programmer.svg" type="image/svg">
 </head>
 
-<body class="main-bg" style="background-image: url('./css/img/main-bg.svg');">
+<body id="intro" class="main-bg">
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#">Mateus Dev</a></h1>
+            <h1><a href="#intro">Mateus Dev</a></h1>
 
             <nav>
                 <ul>
                     <li><a href="#intro">Início</a></li>
                     <li><a href="#about-me">Sobre</a></li>
-                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#grid-one">Portfólio</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
@@ -34,7 +35,7 @@
 
     <div class="menu-spacing"></div>
 
-    <section id="intro" class="intro main-bg section">
+    <section id="intro-top" class="intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
                 <h2>Ohh, Olá!</h2>
@@ -46,8 +47,8 @@
                 </p>
             </div>
             <div class="intro-img">
-                <img src="./css/img/welcoming-bg.svg"
-                    alt="Um desenho dois homens, um segurando o ícone do CSS e um outro segurando o ícone do HTML, há também uma mulher segurando o ícone do Javascript.">
+                <img src="../assets/img/welcoming-bg.svg"
+                    alt="Um desenho de uma pessoa programando. Há uma pessoa, uma cadeira onde a pessoa está sentada, uma mesa com todos os objetos, um monitor, notebook e uma xícara.">
             </div>
         </div>
     </section>
@@ -55,11 +56,49 @@
     <section id="about-me" class="white-bg section">
         <div class="main-content about-content">
             <h2>sobre</h2>
-            <p>TESTE</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iusto neque mollitia repellat qui, minima molestiae earum necessitatibus numquam excepturi ratione quibusdam magni odit aperiam iure omnis et ducimus beatae?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non reprehenderit at officia sequi laboriosam eveniet illum, molestias ut deserunt tenetur blanditiis minima odio, delectus ab fuga ipsum enim laborum? Dolorem?</p>
+            <p>Meu nome é Mateus</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iusto neque mollitia repellat qui, minima
+                molestiae earum necessitatibus numquam excepturi ratione quibusdam magni odit aperiam iure omnis et
+                ducimus beatae?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non reprehenderit at officia sequi laboriosam
+                eveniet illum, molestias ut deserunt tenetur blanditiis minima odio, delectus ab fuga ipsum enim
+                laborum? Dolorem?</p>
         </div>
     </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Top Projetos</h2>
+            <p class="grid-description">Uma breve descrição</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                    alias quos asperiores aspernatur maiores!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                    alias quos asperiores aspernatur maiores!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                    alias quos asperiores aspernatur maiores!</p>
+                </article>                    
+            </div>
+        </div>
+    </section>
+
+    <section class="section white-bg">
+        <div class="main-content">
+            <h1>Teste</h1>
+        </div>
+    </section> 
 
 </body>
 

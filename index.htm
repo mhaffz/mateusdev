@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="./img/programmer.svg" type="image/svg">
 </head>
 
-<body id="intro" class="main-bg">
+<body id="intro">
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1><a href="#intro">Mateus Dev</a></h1>
@@ -27,7 +27,7 @@
                     <li><a href="#intro">Início</a></li>
                     <li><a href="#about-me">Sobre</a></li>
                     <li><a href="#grid-one">Portfólio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -74,32 +74,105 @@
             <div class="grid">
                 <article>
                     <h3>Teste 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                    alias quos asperiores aspernatur maiores!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                        alias quos asperiores aspernatur maiores!</p>
                 </article>
                 <article>
                     <h3>Teste 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                    alias quos asperiores aspernatur maiores!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                        alias quos asperiores aspernatur maiores!</p>
                 </article>
                 <article>
                     <h3>Teste 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                    fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                    alias quos asperiores aspernatur maiores!</p>
-                </article>                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
+                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
+                        alias quos asperiores aspernatur maiores!</p>
+                </article>
             </div>
         </div>
     </section>
 
-    <section class="section white-bg">
-        <div class="main-content">
-            <h1>Teste</h1>
-        </div>
-    </section> 
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Description</p>
 
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?a" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?b" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?c" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?d" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?e" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?f" alt="random image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Ohh, Olá!</h2>
+                <p>
+                    Bem-vindo ao meu website!<br>
+                    Meu nome é Mateus Haffermann Farias, tenho 17 anos e atualmente sou Dev Front-End.<br>
+                    Aqui eu irei apresentar um pouco de mim e dos meu projetos,
+                    espero que goste!!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./img/welcoming-bg.svg"
+                    alt="Um desenho de uma pessoa programando. Há uma pessoa, uma cadeira onde a pessoa está sentada, uma mesa com todos os objetos, um monitor, notebook e uma xícara.">
+            </div>
+
+            <div id="contact" class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact Me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Your E-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a href="https://beacons.ai/mhaffz" target="_blank" rel="noopener noreferrer">Feito com 💙 por Mateus Haffermann Farias</a></p>
+    </footer>
 </body>
 
 </html>

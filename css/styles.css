@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 #intro-top {
     animation: main-bg-animation 1.5s 0.01s ease ;
 }
@@ -37,8 +39,8 @@
     text-align: center;
 }
 
-.grid-one {
-    background-image: url("../img/grid-port-bg.svg");
+#grid-one {
+    background-image: url('../img/grid-port-bg.svg');
 }
 
 .grid-one-content {

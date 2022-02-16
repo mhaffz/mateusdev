@@ -5,30 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/imports.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/elements.css">
-    <link rel="stylesheet" href="./css/classes.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/animations.css">
 
     <title>Mateus Dev</title>
     <link rel="shortcut icon" href="./img/programmer.svg" type="image/svg">
 </head>
 
-<body id="intro">
+<body id="start">
 
     <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
     <label class="close-menu-label" for="close-menu" title="close-menu"></label>
-    
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#intro">Mateus Dev</a></h1>
-
-            <nav>
+            <nav class="navegation" onclick="getElementById('close-menu').checked = false;">
+                <h1><a href="#start">Mateus Dev</a></h1>
                 <ul>
-                    <li><a href="#intro">Início</a></li>
+                    <li><a href="#start">Início</a></li>
                     <li><a href="#about-me">Sobre</a></li>
                     <li><a href="#grid-one">Portfólio</a></li>
                     <li><a href="#contact">Contato</a></li>
@@ -59,40 +52,39 @@
 
     <section id="about-me" class="white-bg section">
         <div class="main-content about-content">
-            <h2>sobre</h2>
-            <p>Meu nome é Mateus</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iusto neque mollitia repellat qui, minima
-                molestiae earum necessitatibus numquam excepturi ratione quibusdam magni odit aperiam iure omnis et
-                ducimus beatae?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non reprehenderit at officia sequi laboriosam
-                eveniet illum, molestias ut deserunt tenetur blanditiis minima odio, delectus ab fuga ipsum enim
-                laborum? Dolorem?</p>
+            <h2>sobre mim</h2>
+            <p>Olá!! Me chamo Mateus Haffermann Farias e sou desenvolvedor front-end.</p>
+            <p>Tenho 17 anos, sou estudante do IFRO (Instituto Federal de Rondônia) e moro no Brasil. Foi no IFRO que eu
+                tive o primeiro contato com programação, onde me apaixonei pela área, atualmente estou no 3° ano, irei
+                finalizar o ensino médio este ano (2022).</p>
+            <p>Atualmente estou focado em programação web, estou estudando e fazendo cursos sobre. Entretanto sei fazer
+                aplicativos desktops utilizando o C# e o MySQL para o banco de dados, esses dois eu aprendi no IFRO.
+                Este ano há também uma matéria de programação web no IFRO, porém por já querer seguir nessa área, estou
+                estudando por conta, fazendo cursos, estudando documentação, entre outros.</p>
+            <p>Sempre estou buscando aprender mais e ser melhor do que fui ontem, obrigado pela sua atenção ;D</p>
         </div>
     </section>
 
     <section id="grid-one" class="grid-one main-bg section">
         <div class="grid-one-content main-content">
             <h2 class="grid-main-heading">Top Projetos</h2>
-            <p class="grid-description">Uma breve descrição</p>
+            <p class="grid-description">Alguns dos meus melhores projetos aqui! Espero que goste ;3</p>
 
             <div class="grid">
                 <article>
-                    <h3>Teste 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                        alias quos asperiores aspernatur maiores!</p>
+                    <h3>Mateus Dev</h3>
+                    <p><a href="https://github.com/mhaffz/mateusdev" target="_blank" rel="noopener noreferrer">Mateus
+                            Dev</a> é um website feito em formato de currículo e o meu primeiro projeto. Neste site
+                        aprendi vários conceitos de HTML e CSS, tais como flexbox, animations, position, media-query,
+                        entre várias outras funcionalidades que você pode ver e até mesmo testá-las agora mesmo ;)</p>
                 </article>
                 <article>
-                    <h3>Teste 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                        alias quos asperiores aspernatur maiores!</p>
+                    <h3>Projeto 2</h3>
+                    <p>Em Breve ;p</p>
                 </article>
                 <article>
-                    <h3>Teste 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatum aut illum molestias
-                        fugit. Minima, in consequuntur minus quia distinctio illum, cupiditate vitae doloremque aliquid
-                        alias quos asperiores aspernatur maiores!</p>
+                    <h3>Projeto 3</h3>
+                    <p>Em Breve ;p</p>
                 </article>
             </div>
         </div>
@@ -100,27 +92,27 @@
 
     <section id="gallery" class="grid-one white-bg section">
         <div class="grid-one-content main-content">
-            <h2 class="grid-main-heading">Gallery</h2>
-            <p class="grid-description">Description</p>
+            <h2 class="grid-main-heading">Galeria de Projetos</h2>
+            <p class="grid-description">Por haver somente 1 projeto até o momento, as outras imagens são geradas automaticamente.</p>
 
             <div class="grid">
-                <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?a" alt="random image">
+                <div id="mateusdev-img" class="gallery-img">
+                    <a href="https://mateusdev.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="./img/mateusdev-img.svg" alt="A image from this website"></a>
                 </div>
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?b" alt="random image">
+                    <img src="https://source.unsplash.com/random/720x720?b" alt="random image">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?c" alt="random image">
+                    <img src="https://source.unsplash.com/random/720x720?c" alt="random image">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?d" alt="random image">
+                    <img src="https://source.unsplash.com/random/720x720?d" alt="random image">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?e" alt="random image">
+                    <img src="https://source.unsplash.com/random/720x720?e" alt="random image">
                 </div>
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?f" alt="random image">
+                    <img src="https://source.unsplash.com/random/720x720?f" alt="random image">
                 </div>
             </div>
         </div>
@@ -129,22 +121,17 @@
     <section id="contact" class="intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>Ohh, Olá!</h2>
-                <p>
-                    Bem-vindo ao meu website!<br>
-                    Meu nome é Mateus Haffermann Farias, tenho 17 anos e atualmente sou Dev Front-End.<br>
-                    Aqui eu irei apresentar um pouco de mim e dos meu projetos,
-                    espero que goste!!
-                </p>
+                <h2>Entre em Contato</h2>
+                <p>Preencha o formulário abaixo com seus dados, sua mensagem e entre em contato comigo! Ou <a href="mailto:mateushaffmain@gmail.com">Clique aqui e me envie um e-mail.</a></p>
             </div>
             <div class="intro-img">
-                <img src="./img/welcoming-bg.svg"
+                <img src="./img/contact-me-img.svg"
                     alt="Um desenho de uma pessoa programando. Há uma pessoa, uma cadeira onde a pessoa está sentada, uma mesa com todos os objetos, um monitor, notebook e uma xícara.">
             </div>
 
             <div id="contact" class="contact-form">
                 <fieldset class="form-grid">
-                    <legend>Contact Me</legend>
+                    <legend><b>Contact Me</b></legend>
 
                     <div class="form-group">
                         <label for="first-name">First Name</label>
@@ -167,7 +154,9 @@
                     </div>
 
                     <div class="form-group full-width">
-                        <button type="submit">Send Message</button>
+                        <button type="submit">
+                            Send Message
+                        </button>
                     </div>
                 </fieldset>
             </div>
@@ -178,6 +167,8 @@
         <p><a href="https://beacons.ai/mhaffz" target="_blank" rel="noopener noreferrer">Feito com 💙 por Mateus
                 Haffermann Farias</a></p>
     </footer>
+
+    <a class="back-to-top" href="#start"><img src="./img/arrow-up.svg"></a>
 </body>
 
 </html>

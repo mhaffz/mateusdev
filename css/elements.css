@@ -8,7 +8,6 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    animation: started 1s 0.01s ease ;
 }
 
 body {

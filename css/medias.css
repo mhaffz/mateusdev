@@ -186,7 +186,6 @@
     .grid-main-heading, p.grid-description {
         margin-bottom: 4rem;
         padding-bottom: 0;
-        ;
         text-align: center;
     }
 
@@ -270,5 +269,19 @@
 
     .certificates h4{
         font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .certificates h4{
+        font-size: 2.3rem;
+    }
+
+    .grid-one-content .grid-main-heading {
+        font-size: 2.5rem;
+    }
+
+    .grid-main-heading, p.grid-description {
+        font-size: 1.7rem;
     }
 }

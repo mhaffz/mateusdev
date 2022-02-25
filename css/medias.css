@@ -95,10 +95,14 @@
     }
 
     .close-menu:checked~.menu {
-        display: block
+        display: block;
     }
 
-    .menu {
+    .close-menu:checked~.back-to-top{
+        display: none;
+    }
+
+    .menu{
         display: none;
     }
 

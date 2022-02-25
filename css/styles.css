@@ -429,6 +429,7 @@ div.full-width {
     align-items: center;
     border-radius: 50%;
     border: 0.1rem solid var(--primary-color);
+    z-index: 0;
 }
 
 .back-to-top img {

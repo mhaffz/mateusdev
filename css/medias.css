@@ -89,17 +89,12 @@
         font-size: 2rem;
     }
 
-
     .close-menu {
         display: none;
     }
 
     .close-menu:checked~.menu {
         display: block;
-    }
-
-    .close-menu:checked~.back-to-top{
-        display: none;
     }
 
     .menu{
@@ -122,6 +117,12 @@
 
     .certificates h4 {
         font-size: 4.6rem
+    }
+}
+
+@media (max-width: 650px) {
+    .certificates h4 {
+        font-size: 4rem
     }
 }
 
@@ -273,6 +274,13 @@
 
     .certificates h4{
         font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .grid-one-content .grid-main-heading {
+        font-size: 3rem;
+        text-align: center;
     }
 }
 

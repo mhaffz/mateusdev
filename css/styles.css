@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url(//db.onlinewebfonts.com/c/1a5c2d8bbd4e28d99a6efcbb9a5b378f?family=JejuMyeongjo);
 
 /* Variables */
 :root {
@@ -111,6 +112,10 @@
     }
   }
 /* Classes */
+.intro, .about-content, .grid-one-content {
+    visibility: hidden;
+}
+
 .main-bg {
     background-image: url('../img/main-bg.svg');
     background-size: cover;
@@ -268,7 +273,6 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: var(--gap);
     counter-reset: grid-counter;
 }
